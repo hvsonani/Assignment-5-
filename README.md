@@ -1,5 +1,5 @@
 # Assignment-5-
-Importing Multiple tabs from Multiple Excel Files and performing Logs and Validation Table
+--- Importing Multiple tabs from Multiple Excel Files and performing Logs and Validation Table ---
 
 Foreach Loop container was used to loop through pipeline created for importing multiple tabs from excel files by creating inputfolder and Filename variables. After importing files, row count transformation was performed to count rows imported into destination table. Rowcount variables were created to create log Table using SQL script Task in SSIS. Validation was performed by using Lookup Task in SSIS.
 
